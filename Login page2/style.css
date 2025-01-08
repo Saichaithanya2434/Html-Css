@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+}
+
+.container  {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(253, 251, 251);
+    box-shadow: 0 0 20px white;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;cursor: pointer;
+    position: absolute;
+    align-items: center;
+}
+
+.form-group:hover {
+    color: aqua;
+    box-shadow: 0 0 20px aqua;
+}
+
+.form-group h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+
+.form-group:hover h2 {
+    color: aqua;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 18px;
+    color: white; 
+    width: 80%;
+    justify-content: center;
+}
+
+
+.email input {
+    height: 25px;
+    border-width: 0 0 2px;
+    outline: 0;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+
+}
+
+.form-group:hover .email {
+    color: aqua;
+}
+
+.form-group:hover .email input {
+    color: aqua;
+}
+
+.password input {
+    height: 25px;
+    border-width: 0 0 2px;
+    outline: 0;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+}
+
+.form-group:hover .password input{
+    color: aqua;
+}
+
+.form-group:hover .password {
+    color: aqua;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    width: 80%;
+}
+
+.form-group a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.form-group:hover a {
+    color: aqua;
+}
+
+.submit {
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 50%;
+}
+
+.form-group:hover .submit {
+    color: aqua;
+    border-color: aqua;
+}
+
+#create-account {
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 5px;
+}
