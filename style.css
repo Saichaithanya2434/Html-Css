@@ -2,7 +2,7 @@ body {
     background-color: #000a1f;
     }
     
-    body::before {
+body::before {
         content: "";
         position: absolute;
         top: 0;
@@ -12,7 +12,7 @@ body {
         background: url(https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/9/AmazonStores/A21TJRUUN4KGV/6671abed2b721b3ef05984d642a06831.w1280.h618.jpg) no-repeat center center/cover;
         opacity: 0.3;
         z-index: -1;
-    }
+}
 
 .container {
     margin: 100px 0 0 200px;
